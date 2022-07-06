@@ -16,5 +16,6 @@ int main()
             printf(" Tails\n");
     }
     printf("Heads: %d, Tails: %d\n", numOfHeads, numOfAll - numOfHeads);
+    printf("%s", numOfHeads < numOfAll - numOfHeads ? "You lost." : "You won.");
     return 0;
 }
